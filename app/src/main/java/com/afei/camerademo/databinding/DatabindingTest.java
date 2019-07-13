@@ -14,7 +14,7 @@ public class DatabindingTest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
          binding = DataBindingUtil.setContentView(this, R.layout.activity_databinding);
-         UserInfo userInfo = new UserInfo("彭于晏","男");
+         UserInfo userInfo = new UserInfo("易烊千玺","男");
          binding.setUserInfo(userInfo);
 
     }
