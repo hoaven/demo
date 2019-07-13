@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity"
+              android:background="@color/white">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorPrimary"
+        android:title="@string/app_name"
+        android:titleTextColor="@android:color/white">
+    </Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/camera_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="SurfaceView + Camera"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/camera_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="TextureView + Camera"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/camera_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="GLSurfaceView + Camera"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/camera_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="SurfaceView + Camera2"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/camera_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="TextureView + Camera2"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/camera_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="GLSurfaceView + Camera2"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/textview_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="富文本"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/eventbus_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="EventBus测试demo"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/handle_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="Handler测试demo"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/tablayout_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="TabLayout测试demo"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/statusbar_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="沉浸式状态栏测试demo"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="SwipeRefreshLayout+Recyclerview实现下拉刷新和上拉自动加载"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/tbs_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="TBSApplication 测试"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/test_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="测试测试"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/rxjava_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="Rxjava测试"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/retorfit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="RxJavaAndRetorfit测试"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/trans_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="RxJava中常见的变换操作符测试"
+                android:textAllCaps="false"/>
+
+
+            <Button
+                android:id="@+id/databinding_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startCameraActivity"
+                android:text="databinding测试"
+                android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
