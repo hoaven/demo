@@ -2353,4 +2353,3 @@ ActivityThread 的 main 是一个App的入口，并且Looper的准备和开启�
     (// 准备主线程的LooperLooper.prepareMainLooper();// 开启LooperLooper.loop();)，所以我们在主线程
     不需要先进行 Looper 的准备和开启
 
------------------------提交的时候一定要全部勾选,并且查看分支------------------------
